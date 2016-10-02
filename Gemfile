@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 #dashing
 gem 'dashing'
-
+gem 'puma'
 # mysql
 gem 'mysql2', '~> 0.3.18'
 

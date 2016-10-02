@@ -44,6 +44,7 @@ GEM
     multipart-post (2.0.0)
     mysql2 (0.3.21)
     naught (1.1.0)
+    puma (3.6.0)
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
@@ -105,6 +106,7 @@ PLATFORMS
 DEPENDENCIES
   dashing
   mysql2 (~> 0.3.18)
+  puma
   rbhive (~> 1.0.3.pre)
   thrift (= 0.9.3.0)
   twitter (>= 5.9.0)

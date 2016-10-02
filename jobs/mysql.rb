@@ -4,7 +4,8 @@ require 'date'
 SCHEDULER.every '2s' do
 # Myql connection
 
-  db = Mysql2::Client.new(:host => "rfd-db-qa.researchnow.com", :username => "ravenfish_user", :password => "Q1f18a1sr#2015", :port => 3306, :database => "ravenfish" )
+  db = Mysql2::Client.new(:host => "rfd-db-qa.researchnow.com",
+                          :username => "ravenfish_user", :password => "Q1f18a1sr#2015", :port => 3306, :database => "ravenfish" )
 
   # Mysql query
   # sql = "SELECT max(seen_milliseconds) as seen_milliseconds FROM ravenfish.aggregate_impressions"
